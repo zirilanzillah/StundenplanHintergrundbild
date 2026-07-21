@@ -1,5 +1,6 @@
 # --- Konfiguration ---
-$aktuelleWoche = (Get-Culture).Calendar.GetWeekOfYear((Get-Date), [System.Globalization.CalendarWeekRule]::FirstFourDayWeek, [System.DayOfWeek]::Monday)
+# aktuelleWoche + 7 Tage, ich will ja den Stundenplan von nächster Woche laden nicht dieser WOche ich Idiot ...
+$aktuelleWoche = (Get-Culture).Calendar.GetWeekOfYear((Get-Date).AddDays(7), [System.Globalization.CalendarWeekRule]::FirstFourDayWeek, [System.DayOfWeek]::Monday)
 $targetUrl = "https://dsbmobile.de/data/1e7d336d-41c7-4a32-9b08-dde7ad6df345/f440c721-c59b-4a39-8b0a-958ee4215a59/$aktuelleWoche/c/c00006.htm"
 $tempPath = "$HOME\Documents\Stundenplan_Raw_KW$aktuelleWoche.png"
 $savePath = "$HOME\Documents\Stundenplan_KW$aktuelleWoche.png"
