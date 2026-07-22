@@ -48,3 +48,9 @@ In meinem Fall `c00006.htm`.
 
 So fügst Du Dein ***Powershell-Skript*** der ***Aufgabenplanung*** hinzu:
 
+![Aufgabenplanung Anleitung](05_Aufgabenplanung.jpg)
+
+![Aufgabenplanung Anleitung](06_Aufgabenplanung.jpg)
+
+![Aufgabenplanung Anleitung](07_Aufgabenplanung3.jpg)
+
