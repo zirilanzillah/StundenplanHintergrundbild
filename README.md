@@ -68,3 +68,13 @@ In der **Eingabemaske** **⑦** bitte folgendes eintragen.
 >`-ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Documents\StundenplanHintergrundbildDunkel.ps1"`
 >>**Wichtig:** Hier muss Dein Dateipfad eingetragen werden<br>
 >>unter dem Du Dein Powershell-Skript abgespeichert hast.
+
+Jetzt musst Du noch zwei Haken setzen den Ersten bei **⑧**.
+
+![Aufgabenplanung Anleitung](08_Aufgabenplanung4.jpg)
+
+Und den zweiten Haken bei **⑨**.
+
+![Aufgabenplanung Anleitung](09_Aufgabenplanung5.jpg)
+
+Fertig eingerichtet!
