@@ -46,11 +46,25 @@ In meinem Fall `c00006.htm`.
 
 ## ![icon21px](Aufgabenplanung.png) Aufgabenplanung
 
-So fügst Du Dein ***Powershell-Skript*** der ***Aufgabenplanung*** hinzu:
+So fügst Du Dein ***Powershell-Skript*** der ***Aufgabenplanung*** hinzu:<br>
+In Windows nach ***Aufgabenplanung*** **⑤** suchen und starten.
 
 ![Aufgabenplanung Anleitung](05_Aufgabenplanung.jpg)
 
+Dann auf `Einfache Aufgabe erstellen` **⑥** klicken.
+
 ![Aufgabenplanung Anleitung](06_Aufgabenplanung.jpg)
+
+In der **Eingabemaske** **⑦** bitte folgendes eintragen.
 
 ![Aufgabenplanung Anleitung](07_Aufgabenplanung3.jpg)
 
+* `Name` *StundenplanHintergrund*
+* `Trigger` auf `Wöchentlich` setzen
+* `Freitag` um `11:00 Uhr` bietet sich an
+* `Aktion` auf `Programm starten` setzen
+* `Programm starten` bei `Programm/Skript` *powershell* eintippen
+>`Agrument hinzufügen (optional)` folgendes eintragen<br>
+>`-ExecutionPolicy Bypass -WindowStyle Hidden -File "C:\Documents\StundenplanHintergrundbildDunkel.ps1"`
+>>**Wichtig:** Hier muss Dein Dateipfad eingetragen werden<br>
+>>unter dem Du Dein Powershell-Skript abgespeichert hast.
