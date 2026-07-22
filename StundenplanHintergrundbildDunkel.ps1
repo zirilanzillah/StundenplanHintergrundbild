@@ -62,6 +62,9 @@ for ($x = 0; $x -lt $bmp.Width; $x++) {
         $bmp.SetPixel($x, $y, $newPixel)
     }
 }
+# 56 Pixel oben abschneiden, um auf den Schuldesktops mit 1680 px * 1050 px noch unten die KW zu sehen, die sonst hinter der Taskleiste versteckt wäre
+$cropRect = [System.Drawing.Rectangle]::new(0, 56, $bmp.Width, ($bmp.Height - 56))
+$bmp = $bmp.Clone($cropRect, $bmp.PixelFormat)
 
 # vergrößertes Hintergrundbild abspeichern
 $bmp.Save($savePath, [System.Drawing.Imaging.ImageFormat]::Png)
