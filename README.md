@@ -1,5 +1,5 @@
 # Stundenplan als Hintergrundbild
-Mit diesem ***Powershell-Skript*** (`StundenplanHintergrundDunkel.ps1`)<br>
+Mit diesem ***Powershell-Skript*** [StundenplanHintergrundDunkel.ps1](StundenplanHintergrundDunkel.ps1)<br>
 kannst Du Deinen Stundenplan von ***DSBMobile*** als Deinen<br>
 ***Windows Hintergrund*** festlegen
 und über die ***Aufgabenplanung***<br>
