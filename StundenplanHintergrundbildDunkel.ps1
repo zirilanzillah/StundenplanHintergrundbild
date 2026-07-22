@@ -66,7 +66,7 @@ for ($x = 0; $x -lt $bmp.Width; $x++) {
 # vergrößertes Hintergrundbild abspeichern
 $bmp.Save($savePath, [System.Drawing.Imaging.ImageFormat]::Png)
 
-# er löscht mir die Raw Datei nicht richtig weg, Überschreiben geht, k/A warum löschen nicht geht, muss ich später drüber gucken was hier hängt, Fehlermeldung einfach erstmal unterdrücken und weiter
+# er löscht mir die Raw Datei nicht richtig weg, Überschreiben geht, k/A warum löschen nicht geht, muss ich später drüber gucken was hier hängt
 $bmp.Dispose()
 Remove-Item $tempPath -ErrorAction SilentlyContinue
 
