@@ -44,7 +44,7 @@ In meinem Fall `c00006.htm`.
 
 ![c00006.htm Drop Down Menü unter dem Du Deine vierstellige Kursnummer findest](04_c00006htm.jpg)
 
-## Aufgabenplanung
+## ![icon21px](Aufgabenplanung.png) Aufgabenplanung
 
-icon
+So fügst Du Dein ***Powershell-Skript*** der ***Aufgabenplanung*** hinzu:
 
