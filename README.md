@@ -1,10 +1,12 @@
 # Stundenplan als Hintergrundbild
-Mit diesem ***Powershell-Skript*** [StundenplanHintergrundbildDunkel.ps1](StundenplanHintergrundbildDunkel.ps1)<br>
+Mit diesem ***Powershell-Skript*** `📄StundenplanHintergrundbildDunkel.ps1`<br>
 kannst Du Deinen Stundenplan von ***DSBMobile*** als Deinen<br>
 ***Windows Hintergrund*** festlegen
 und über die ***Aufgabenplanung***<br>
 (Systemprogramm unter Windows) automatisch jede Woche<br>
-aktualisieren lassen.
+aktualisieren lassen. Lade Dir das ***Powershell-Skript***<br>
+[StundenplanHintergrundbildDunkel.ps1](StundenplanHintergrundbildDunkel.ps1)<br>
+auf Deine Festplatte herunter und öffne es mit einem Text-Editor.<br>
 
 ## DSBMobile Webseite (anmelden)
 Mit ***Google Chrome*** öffnest Du Deinen Stundenplan und drückst<br>
@@ -30,9 +32,6 @@ Jetzt wird rechts unten ein Zeile `file:data/` angezeigt **③**:
 
 `file:data/1e7d336d-41c7-4a32-9b08-dde7ad6df345/f440c721-c59b-4a39-8b0a-958ee4215a59`
 
-Lade Dir das ***Powershell-Skript***<br>
-`📄 StundenplanHintergrundbildDunkel.ps1`<br>
-auf Deine Festplatte herunter und öffne es mit einem Text-Editor.<br>
 Diesese beiden Ordner haben lange *Ziffern-Buchstaben-Kom-*<br>
 *binationen*, die Du am Besten mit *copy & paste* in **Zeile 9** des<br>
 ***Powershell-Skripts*** einfügst:
@@ -81,3 +80,8 @@ Und den zweiten Haken setzt Du bei **⑨**.
 ![Aufgabenplanung Anleitung](09_Aufgabenplanung5.jpg)
 
 Fertig eingerichtet!
+
+>PS: Guck noch einmal in das Bild mit der **⑥**.<br>
+>Im oberen, mittleren Fenster kannst Du mit einem<br>
+>Rechtsklick auf *StundenplanHintergrundbild*<br>
+>Deine erstellte Aufgabe auch per Hand starten.
