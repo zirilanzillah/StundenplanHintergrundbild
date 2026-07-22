@@ -23,10 +23,14 @@ zu öffnen. Dort `Search in folder` auswählen.
 
 ![Search folder](02_Search_folder.jpg)
 
-Jetzt werden rechts unten ein Zeile in folgendem Format `file:data/` angezeigt **③**:
+Jetzt wird rechts unten ein Zeile `file:data/` angezeigt **③**:
 
 `file:data/1e7d336d-41c7-4a32-9b08-dde7ad6df345/f440c721-c59b-4a39-8b0a-958ee4215a59`
 
+Diesese beiden Ordner haben lange Ziffern-Buchstaben-Kombinationen, die Du am Besten
+mit *copy & paste* in **Zeile 9** des ***Powershell-Skripts*** einfügst:
+
+Meine Ziffern-Buchstaben-Kombination ist folgende, Du hast wahrscheinlich etwas anderes angezeigt in dem Entwicklertools.
 ![Ordnerstruktur unter der Dein Stundenplan liegt](03_Ordnerstruktur.jpg)
 
 sadf
