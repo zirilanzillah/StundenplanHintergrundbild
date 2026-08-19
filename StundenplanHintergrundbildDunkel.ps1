@@ -6,7 +6,7 @@ $aktuelleWoche = (Get-Culture).Calendar.GetWeekOfYear((Get-Date).AddDays(7), [Sy
 # $aktuelleWoche = (Get-Culture).Calendar.GetWeekOfYear((Get-Date).AddDays(7), [System.Globalization.CalendarWeekRule]::FirstFourDayWeek, [System.DayOfWeek]::Monday); "{0:D2}" -f $aktuelleWoche
 
 # für FIS/FIA 2369 liegt der Stundenplan in diesen verschachtelten Ordnern 1e7d336d-41c7-4a32-9b08-dde7ad6df345 und f440c721-c59b-4a39-8b0a-958ee4215a59 kein login und pw für dsmobile nötig c00006 ist der 6te Eintrag von oben als 2369
-$targetUrl = "https://dsbmobile.de/data/1e7d336d-41c7-4a32-9b08-dde7ad6df345/abae1fd2-0fcc-4c44-ab3a-8c81ff0bad12/$aktuelleWoche/c/c00006.htm"
+$targetUrl = "https://dsbmobile.de/data/1e7d336d-41c7-4a32-9b08-dde7ad6df345/3e9c685a-a22a-4be8-adb3-5db1ab31c4ca/$aktuelleWoche/c/c00006.htm"
 
 $tempPath = "$HOME\Documents\Stundenplan_Raw_KW$aktuelleWoche.png"
 $savePath = "$HOME\Documents\Stundenplan_KW$aktuelleWoche.png"
